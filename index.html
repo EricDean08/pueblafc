@@ -1,0 +1,506 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+#page2 div p {
+	font-size: 9px;
+}
+#page2 div p {
+	color: #0080FF;
+}
+#page2 div p {
+	font-weight: bold;
+}
+#page2 div h1 {
+	color: #0080FF;
+}
+#page2 div h4 {
+	color: #0080C0;
+	font-size: 12px;
+}
+#page2 div p {
+	font-size: 10px;
+}
+#page2 div p {
+	color: #000000;
+}
+#page div ul li a {
+	color: #0080FF;
+}
+#page div h1 {
+	color: #0080FF;
+}
+#page div h4 {
+	color: #0080FF;
+	font-size: 12px;
+}
+#page3 div p {
+	font-size: 16px;
+}
+#page3 div h1 {
+	color: #0080FF;
+}
+#page3 div h4 {
+	color: #0080FF;
+	font-size: 12px;
+}
+#page4 div {
+	font-size: 10px;
+}
+#page4 div h1 {
+	color: #0080FF;
+}
+#page4 div h4 {
+	font-size: 12px;
+	color: #0080FF;
+}
+#page5 div h1 {
+	color: #0080FF;
+}
+#page5 div h4 {
+	color: #0080FF;
+	font-size: 12px;
+}
+.dividir {
+	color: #0080FF;
+}
+.escudohistoria {
+	color: #0080FF;
+}
+.estadiohistoria {
+	color: #0080FF;
+}
+.plantillahistoria {
+	color: #0080FF;
+}
+.ayudahistoria {
+	color: #0080FF;
+}
+#page5 div table tr th {
+	color: #000000;
+	font-size: 10px;
+}
+.ayuda {
+	color: #0080FF;
+	font-size: 12px;
+}
+.historia {
+	color: #0080FF;
+}
+.contentayuda {
+	color: #0080FF;
+}
+#page6 div h4 {
+	font-size: 12px;
+	color: #0080FF;
+}
+#page6 div h1 {
+	color: #0080FF;
+}
+.jugadores {
+	color: #0080FF;
+}
+</style>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>PUEBLA FC</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview" data-inset="true">
+			<li><a href="#page2" data-transition="fade">HISTORIA</a></li>
+            <li><a href="#page3" data-transition="flip">ESCUDO</a></li>
+			<li><a href="#page4" data-transition="pop">ESTADIO</a></li>
+            <li><a href="#page5" data-transition="slide">PLANTILLA</a></li>
+            <li><a href="#AYUDA" data-transition="slidedown">AYUDA</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed"> 
+    <a href="#AYUDA" data-role="button" data-theme="b">ayuda </a>
+   <span style="font:8pt Arial, Helvetica, sans-serif;"> Da click aqui </span>
+		<h4>Puebla FC</h4>
+	</div>
+</div>
+ 
+<div data-role="page" id="page2">
+    <div data-role="header">
+		<h1>HISTORIA</h1>
+   <a data-direction"reverse" data-rel="back">atras </a>
+	</div>
+     <div data-role="content">	
+		<p>Este plantel mexicano se formó en el sector amateur en 1944 fundado en su mayoría por ingleses que se integran a la Liga Mexicana de Futbol.</p>
+
+<p>El viejo Velódromo se convirtió en el Parque España con el que se arrancó la mejor etapa de desarrollo de futbol en Puebla, posteriormente convertido en el Parque El Mirador.</p>
+
+<p>A principios de 1944, un grupo de empresarios lanzaron la propuesta de formar un equipo de futbol profesional e ingresarlo a la Primera División, acción que se logró el 7 de mayo de ese mismo año cuando el equipo Puebla F.C. debutó en Veracruz dentro del Torneo de Copa 43 – 44.</p>
+
+<p>Dentro del Campeonato 44 – 45, el equipo Puebla F.C. jugó su primer partido de liga el 20 de agosto ante Atlas de Guadalajara en el campo “El Mirador” escenario inaugurado el 21 de mayo de 1944.</p>
+
+<p>Entre 1944 y 1949, el equipo Puebla F.C. cumplió con destacadas actuaciones logrando un segundo lugar, un tercero y tres cuartos sitios, además de la primera Copa México en la temporada 44 – 45 para ingresar a la lista de equipos grandes del futbol mexicano. En la temporada 53-54 conquistó su segundo titulo de Copa México y logró el tercer lugar en la liga.</p>
+
+<p>La empresa no fue fácil y en la temporada 55 - 56 inicio una etapa difícil; en la 56 – 57 el equipo Puebla F.C. solicitó permiso para retirarse de la Liga y retornar hasta ocho años más tarde.</p>
+
+<p>El año de 1964 se enmarcó como el regreso del futbol profesional a Puebla a través de la Segunda División, seis años más tarde, en noviembre de 1970 consiguió ganar una liguilla de promoción para ascender al máximo circuito profesional.</p>
+
+<a href="#page" class=" ui-btn">INICIO </a>
+    
+		
+	</div>
+    <div data-role="footer" data-position="fixed">
+		<h4>Puebla FC</h4>
+	</div>
+    </div>
+	
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>ESCUDO</h1>
+        <a data-direction"reverse" data-rel="back">atras </a>
+	</div>
+	<div data-role="content">	
+		<img src="puebla.png" width="120" height="100">
+		<p>un balon azul con una franja a su costado izquierdo, rodeado de 5 estrellas que representan sus cinco titulos ganados, encabezan el escudo que actualmente podemos ver para Puebla, ademas del mote Puebla F.C. encima de una franja que va de derecha a izquierda y al costado izquierdo dos estrellas, que representan los maximos logros en la historia del club, dos titulos de liga y con tono de azul y blanco, siendo un escudo que el solo verlo se recuerdan los maximos triunfos de la franja.</p>
+        <a href="#page" class=" ui-btn">INICIO </a>		
+	</div>
+	<div data-role="footer" data-position="fixed">
+		<h4>Puebla FC</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+  <div data-role="header">
+		<h1>ESTADIO</h1>
+        <a data-direction"reverse" data-rel="back">atras </a>
+	</div>
+  <div data-role="content">	
+	<img src="estadio.jpg" width="129" height="109"> 
+    Estadio Cuauhtémoc
+<P>El diseño original del Estadio Cuauhtémoc es del arquitecto Pedro Ramírez Vázquez, quien creó además el Estadio Azteca, la Basílica de Guadalupe y otras grandes obras.</P>
+
+<P>Fue inaugurado el 6 de octubre de 1968, con un par de encuentros, Puebla ante América y como estelar un partido donde la Selección de México empató a un tanto contra la Selección Olímpica de Checoslovaquia.</P>
+
+<P>El Estadio sufrió una ampliación en 1986, con lo que el aforo actual es de 42,648 personas, cómodamente sentadas, con 20 accesos generales, un acceso especial para discapacitados; 330 palcos y 36 sanitarios generales; tres módulos de taquillas cada uno con 9 ventanillas; cuatro vestidores; 2 gimnasios, sala de prensa, consultorio médico, 3 palcos para estaciones radiofónicas y 2 cabinas para Televisión; 18 mil 800 metros cuadrados de áreas verdes, estacionamiento compartido para más de 3,600 automóviles; alumbrado de luz blanca de aditivo metálico con cuatro subestaciones eléctricas.</P>
+
+<P>El gran escenario sirvió durante los Juegos Olímpicos de 1968 y más tarde albergó dos Copas del Mundo (1970 y 1986), contando con grandes figuras del balompié mundial como el gran jugador Diego Armando Maradona quien jugó con su selección en este estadio.</P>
+
+<P>El estadio Cuauhtémoc ha sido la casa del fútbol poblano durante más de cuatro décadas y escenario de grandes batallas de perfil nacional e internacional.</P>
+
+
+<P>Dirección: Calzada Ignacio Zaragosa 666, Unidad Deportiva, Maravillas
+CP 72220 Heroica Puebla de Zaragoza, Puebla, México</P>
+<a href="#page" class=" ui-btn">INICIO </a>
+		
+	</div>
+  <div data-role="footer" data-position="fixed">
+		<h4>Puebla FC</h4>
+	</div>
+</div>
+    
+<div data-role="page" id="page5">
+	<div data-role="header">
+		<h1>PLANTILLA</h1>
+        <a data-direction"reverse" data-rel="back">atras </a>
+	</div>
+    
+	<div data-role="content">	
+		<table data-role="table">
+        <tbody>
+        <thead>
+        </thead>
+       
+        <tr>
+        <thead>
+            <th>NOMBRE</th>
+            <th>NUMERO DE PLAYERA</th>
+            <th>POSICION</th>
+            </thead>
+            
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        
+            
+        <tr>
+            <th>Fabian Villaseñor</th>
+            <th>01</th>
+            <th>Portero</th>
+        </tr>
+        
+        <tr>
+            <th>Efrain Cortes</th>
+            <th>02</th>
+            <th>Defensa</th>
+        </tr>
+        
+         <tr>
+            <th>Juan de la Barrera</th>
+            <th>03</th>
+            <th>Defensa</th>
+        </tr>
+        
+         <tr>
+            <th>Facundo Erpen</th>
+            <th>04</th>
+            <th>Defensa</th>
+        </tr>
+        
+         <tr>
+            <th>Luis Robles</th>
+            <th>06</th>
+            <th>Defensa</th>
+        </tr>
+        
+         <tr>
+            <th>Luis Noriega</th>
+            <th>07</th>
+            <th>Medio</th>
+        </tr>
+        
+         <tr>
+            <th>Gerardo Espinoza</th>
+            <th>08</th>
+            <th>Medio</th>
+        </tr>
+        
+         <tr>
+            <th>Hercules Gomez</th>
+            <th>09</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Cuauhtemoc Blanco</th>
+            <th>10</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Matias Alustiza</th>
+            <th>11</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Oscar Rojas</th>
+            <th>12</th>
+            <th>Defensa</th>
+        </tr>
+        
+         <tr>
+            <th>Alfonso Tamay</th>
+            <th>13</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Michael Orozco</th>
+            <th>16</th>
+            <th>Defensa</th>
+        </tr>
+        
+         <tr>
+            <th>Luis Esqueda</th>
+            <th>18</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Flavio Santos</th>
+            <th>19</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Eisner Loboa</th>
+            <th>20</th>
+            <th>Medio</th>
+        </tr>
+        
+         <tr>
+            <th>Gabriel Rey</th>
+            <th>21</th>
+            <th>Delantero</th>
+        </tr>
+        
+         <tr>
+            <th>Freddy Pajoy</th>
+            <th>22</th>
+            <th>Medio</th>
+        </tr>	
+        
+         <tr>
+            <th>Sergio Perez</th>
+            <th>24</th>
+            <th>Defensa</th>
+        </tr>	
+        
+         <tr>
+            <th>Pablo Gonzalez</th>
+            <th>25 </th>
+            <th>Medio</th>
+        </tr>	
+        
+         <tr>
+            <th>Mauricio Romero</th>
+            <th>26</th>
+            <th>Defensa</th>
+        </tr>	
+        
+         <tr>
+            <th>Alberto Acosta</th>
+            <th>27</th>
+            <th>Medio</th>
+        </tr>	
+        
+         <tr>
+            <th>Paco Torres</th>
+            <th>28</th>
+            <th>Medio</th>
+        </tr>	
+        
+         <tr>
+            <th>Wilberto Cosme</th>
+            <th>29</th>
+            <th>Delantero</th>
+        </tr>	
+        
+         <tr>
+            <th>Rodolfo Cota</th>
+            <th>30</th>
+            <th>Portero</th>
+        </tr>	
+        </tbody>
+        </table>
+        
+       
+        <a href="#page6" data-role="button" data-theme="a">Fotos de Jugadores </a>
+        
+        
+        <a href="#page" class=" ui-btn">INICIO </a>
+	
+    </div>
+    
+	<div data-role="footer" data-position="fixed">
+		<h4>Puebla FC</h4>
+	</div>
+   </div>
+   
+<div data-role="page" id="page6">
+	<div data-role="header">
+    <a data-direction"reverse" data-rel="back">atras </a>
+		<h1>FOTOS DE JUGADORES</h1>
+	</div>
+	<div data-role="content">	
+    <img src="37c.jpg" width="60" height="150">
+    <img src="47c.jpg" width="60" height="150"> 
+    <img src="5c.jpg" width="60" height="150">
+    <img src="25c.jpg" width="60" height="150">
+    <img src="50c.jpg" width="60" height="150">
+    <img src="7c.jpg" width="60" height="150">
+    <img src="46c.jpg" width="60" height="150">
+    <img src="49c.jpg" width="60" height="150">
+    <img src="41c.jpg" width="60" height="150">
+    <img src="44c.jpg" width="60" height="150">
+    <img src="17c.jpg" width="60" height="150">
+    <img src="36c.jpg" width="60" height="150">
+    <img src="14c.jpg" width="60" height="150">
+    <img src="21c.jpg" width="60" height="150">
+    <img src="40c.jpg" width="60" height="150">
+    <img src="28c.jpg" width="60" height="150">
+    <img src="31c.jpg" width="60" height="150">
+    <img src="51c.jpg" width="60" height="150">
+    <img src="20c.jpg" width="60" height="150">
+    <img src="45c.jpg" width="60" height="150">
+    <img src="42c.jpg" width="60" height="150">
+    <img src="24c.jpg" width="60" height="150">
+    <img src="43c.jpg" width="60" height="150">
+    <img src="27c.jpg" width="60" height="150">
+    </div>
+     <a href="#page" class=" ui-btn">INICIO </a>
+	<div data-role="footer" data-position="fixed">
+		<h4>Puebla fc</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="AYUDA">
+<div data-role="header">
+		
+	</div>
+<div data-role="content">	
+		<div data-role="collapsible-set">
+        <div data-role="collapsible" data-collapsed="true">	
+        <h1>  Eric León Hernandez </h1>
+        <p> Maestria en Redes </p>
+        <p> Matricula 13002 </p>
+       
+        </div>
+        <div data-role="collapsible" data-collapsed="true">	
+        <h1> Puebla FC </h1>
+        <p> Campeones de la copa MX 2015 </p>
+        <p> Derrotando a las chivas 4-2 </p>
+       
+        </div>
+        <div data-role="collapsible" data-collapsed="true">	
+        <h1> Ayuda </h1>
+        <p> Esta es la pagina de ayuda </p>
+        
+       
+        </div>
+        </div>
+	</div>
+	<div data-role="footer" data-position="fixed">
+    <div data-role="footer" data-position="fixed">
+    <div data-role="navbar" data-iconpos="top">
+		<ul>
+        <li> <a href="#page" class="dividir" data-icon="info"> Inicio 
+              </a>
+        </li>
+        
+         <li> <a href="#page2" class="historia" data-icon="check">Historia
+              </a>
+        </li>
+        
+         <li> <a href="#page3" class="escudohistoria" data-icon="check">Escudo
+              </a>
+        </li>
+       <li> <a href="#page4" class="estadiohistoria" data-icon="check">Estadio
+              </a>
+</li>
+   <li> <a href="#page5" class="plantillahistoria" data-icon="check">Plantilla
+              </a>
+</li>
+
+<li> <a href="#page6" class="jugadores" data-icon="check">Fotos jugadores
+              </a>
+</li>
+        
+<ul/>
+        </div>
+    
+	</div>
+</div>
+		
+	</div>
+</div>
+
+
+</div>
+
+</body>
+</html>
