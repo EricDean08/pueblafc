@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.helloworld"
+        version   = "1.0.0">
+
+    <name>Puebla FC</name>
+<icon src"1.jpg" gap:platform="android" gap:density="ldpi"/>
+    <description>
+        TRABAJO FINAL ERIC lEÓN
+    </description>
+
+    <author href="http://EricLeón" email="ericleon.com">
+        Eric León Hdz
+    </author>
+
+</widget>
